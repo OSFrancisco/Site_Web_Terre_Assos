@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #154557;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+body .Haut{
+    margin: 20px 80px;
+    position: sticky;
+
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #154557;
+    padding: 20px 20px;
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+nav .right a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav .left button{
+    padding: 10px 20px;
+    color: #154557;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+body Logo{
+    text-align: center;
+
+}
+header{
+    margin-top: 40px;
+    background: url('https://officialpsds.com/imageview/r6/xy/r6xyll_large.png?1521316562');
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position: center;
+  }
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 150px;
+    margin-top: 200px;
+}
+
+header h2{
+    text-align:center;
+    font-size: 25px;
+    padding: 0;
+
+}
+footer{
+    background-color: #FFFFFF;
+    padding: 50px 350px;
+    color: #154557;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 400px;
+
+}
+footer .colonne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+
+}
