@@ -1,2 +1,43 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+ <html lang=*fr*>
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>JHF's Site</title>
+         <link rel="stylesheet" href="Site_Web_Terre_Assos.css">
+     </head>
+     <body>
+        <header>
+            <section class="Haut">
+                <div class="onglets">
+                    <nav>
+                        <div class="right">
+                            <a href>L'Association</a>
+                            <a href>Partenaires</a>
+                            <a href>Boutique</a>
+                        </div>
+                        <div class="left">
+                          <button class="Home">Connexion</button>
+                          <button class="Home">Dons</button>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </header>
+              <header>
+                <h1>Just Have Fun</h1>
+                <h2>Association de divertissement</h2>
+              </header>
+
+              <footer>
+                  <div class="colonne">
+                      <p>Contact:</p>
+                      <p>Instagram</p>
+                      <p>Justhavefunns@gmail.com</p>
+                      <p>Tik Tok</p>
+                  </div>
+              </footer>
+     </body>
+
+ </html>
+
